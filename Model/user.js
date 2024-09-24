@@ -3,7 +3,7 @@ import bcrpyt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
 const userSchema = new Schema({
-  name: { type: String, required: [true, "name is required"] },
+  name: { type: String, required: [true, "name is requiredd"] },
   password: { type: String, required: [true, "password is required"] },
 });
 
